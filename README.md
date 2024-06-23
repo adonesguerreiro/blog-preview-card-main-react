@@ -13,4 +13,4 @@ This HTML & CSS-only challenge is a perfect project for beginners getting up to 
 
 Link of the challenge: https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS
 
-I am using semantic HTML and CSS syntax
+I am using Reactjs
