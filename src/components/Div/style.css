@@ -1,0 +1,49 @@
+.content {
+	display: grid;
+	width: 336px;
+	height: 194px;
+	h1:hover {
+		color: hsl(47, 88%, 63%);
+		cursor: url("/assets/svg/handcursor.svg"), auto;
+	}
+	.category {
+		display: grid;
+		place-items: center;
+		font-weight: 800;
+		width: 82px;
+		height: 29px;
+		background-color: hsl(47, 88%, 63%);
+		border-radius: 5px;
+	}
+}
+
+#description {
+	color: hsl(0, 0%, 50%);
+	line-height: 1.5;
+}
+
+.image-avatar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 150px;
+	height: 32px;
+	img {
+		width: 32px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.content {
+		width: 279px;
+		height: 173px;
+	}
+
+	#description {
+		font-size: 14px;
+	}
+
+	.image-avatar {
+		padding-right: 9rem;
+	}
+}

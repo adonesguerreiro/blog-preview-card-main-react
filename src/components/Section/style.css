@@ -1,0 +1,20 @@
+#blog-preview-card {
+	display: grid;
+	justify-content: center;
+	width: 384px;
+	height: 522px;
+	border-radius: 20px;
+	border-top: 1px solid hsl(0, 0%, 7%);
+	border-left: 1px solid hsl(0, 0%, 7%);
+	box-shadow: 10px 10px 0 0 hsl(0, 0%, 7%);
+	background-color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 375px) {
+	#blog-preview-card {
+		display: grid;
+		place-items: center;
+		width: 327px;
+		height: 501px;
+	}
+}
